@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+    font-size: 25px;
+}
+
+header {
+    font-family: monospace;
+    background-color: #00796b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 1.5rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fffdfd;
+}
+
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#brainSVG {
+    cursor: pointer;
+}
+
+.info-text {
+    display: none; /* Initially hidden */
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Initially positioned to the right of the SVG */
+    margin-left: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#brainSVG path:hover {
+    fill: yellow !important; /* Highlight on hover */
+}
