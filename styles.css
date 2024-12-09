@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #383838;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 nav a {
@@ -67,4 +67,54 @@ footer {
 
 #brainSVG path:hover {
     fill: yellow !important; /* Highlight on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 25px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 16px;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #cccccc;
+}
+
+caption {
+    caption-side: top;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+.reference-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reference-list li {
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Allows breaking long words */
+    overflow-wrap: break-word; /* Adds compatibility for breaking */
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
